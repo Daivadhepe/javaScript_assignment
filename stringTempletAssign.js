@@ -1,0 +1,11 @@
+  console.log("-------------------stringAssignment =1-----------------------------------------------------");
+  console.log(",,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,");
+  console.log(`"My Dream company name is"Infosys Limited"`);
+  console.log(",,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,");
+  var Hobby_1 =("Reading Books");
+  var Hobby_2 =('Traveling');
+  var Hobby_3 =(" cooking");
+  console.log(`Hobby 1 : ${Hobby_1}`);
+  console.log(`Hobby 2: ${Hobby_2}`);
+  console.log(`Hobby 3: ${Hobby_3}`);
+  console.log(`After concat : ${Hobby_1.concat(" ",Hobby_2," ",Hobby_3)}`);

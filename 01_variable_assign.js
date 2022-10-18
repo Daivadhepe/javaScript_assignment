@@ -1,0 +1,16 @@
+var myFullName;
+console.log(myFullName );
+var myFullName="Daivashala Dhepe";
+console.log(myFullName);
+myFullName="Daivashala Gangadhar Dhepe";
+console.log(myFullName);
+var myLove="I Love only JS";
+console.log(myLove);
+var firstName="Daivashala";
+var lastName ="Dhepe";
+var age="23";
+var address="Pune";
+var pin_code="431602";
+var gender="female";
+var isMarried="Yes";
+console.log(firstName,lastName,age,address,pin_code,gender,isMarried);
