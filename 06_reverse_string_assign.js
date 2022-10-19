@@ -19,7 +19,24 @@ var res = reverseString(str1);
 console.log(res);
 var res = reverseString(str2)
 console.log(res);
-
+console.log("Q.1 .  Reverse string Assignment --------------------------");
+console.log(" ");
+  function reverseString(givenString)
+  {
+    console.log(`Given string is:-${givenString}`);
+        var lengthstr = givenString.length-1;
+var reversestr="";
+for (let index =lengthstr; index >=0; index--) {
+   var char =  givenString.charAt(index)
+   reversestr = reversestr+char
+}
+  console.log(`reverse string is :-${reversestr}`);
+  }
+  reverseString("Hard work always pays back");
+  console.log("");
+  reverseString("Soon i will be Angular IT champ ");
+  console.log("");
+  reverseString("I am Angular developer ");
 
 // console.log("Q.NO 2===========WAF exp to get first 10 prime no ");
 // var isPrime =function(n)
