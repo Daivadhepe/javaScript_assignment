@@ -41,33 +41,39 @@ const employee_info = {
 console.table( employee_info);
 
 console.warn("-----------Q.no.5  log the employee details on console -------------------");
-console.warn(" ------------------------------- a-------------------------------");
-console.log(`Employees address is ==>  `,employee_info.address,employee_info.address.locality );
-console.warn("------------------------------b-------------------------------------");
+console.warn(" ------------------------------- a-- I am login Employee address details -----------------------------");
+console.table(employee_info.address  );
+console.warn("------------------------------b-- -----------------------------------");
 
 console.log(`Employees mobile number is ==>`, employee_info.mobiles);
 console.warn("--------------Q.no.6-----Perform the deep clone using ... operator ----------------------------------");
 
 let clone_emp_info = {...employee_info}
+// console.table(employee_info);
+// console.table(clone_emp_info);
 employee_info.address.locality.street = `At. Nanded Di. 431602`;
 employee_info.mobiles[0] = `8668 7474 45`;
 console.table(employee_info);
-console.log(clone_emp_info);
-console.log(` Due to limitations of spread operator`);
+console.table(clone_emp_info);
+console.log(`  deep clone mdhe fkt clone mdhech changes vayla pahije hote pn ithe donhimdhe pn zalet .... Due to limitations of spread operator`);
 console.warn("-------------------Q.no.7  ------employee info program deep clonning using JSON.stringfy() method --------------------------------------");
-let clone_emp_info2 = JSON.parse(JSON.stringify(employee_info));
-employee_info.salary.july_month = "80K";
-employee_info.address.country = " United Kingdom"
-console.warn("-----------Q. 7.a ----------Original and clone object salary-----------------------");
-console.log(`Employee original salary in main object ==> `,clone_emp_info2.salary.july_month );
-console.log(`Employee  salary in clone objet ==> `,employee_info.salary.july_month);
-console.warn("--------------Q. no .7a -------------Original and clone object Country ------------------------------");
-console.log(`Employee original country value  ==> `,clone_emp_info2.address.country );
-console.log(`Employee clone country value ==> `,employee_info.address.country );
+// let clone_emp_info2 = JSON.parse(JSON.stringify(employee_info));
+// employee_info.salary.july_month = "80K";
+// employee_info.address.country = " United Kingdom";
+
+// console.warn("-----------Q. 7.a ----------Original and clone object salary-----------------------");
+// console.log(`Employee original salary in main object ==> `,clone_emp_info2.salary.july_month );
+// console.log(`Employee  salary in clone objet ==> `,employee_info.salary.july_month);
+// console.warn("--------------Q. no .7a -------------Original and clone object Country ------------------------------");
+// console.log(`Employee original country value  ==> `,clone_emp_info2.address.country );
+// console.log(`Employee clone country value ==> `,employee_info.address.country );
 
 
-
-
+clone_emp_info = JSON.parse(JSON.stringify(employee_info));
+console.log(employee_info.salary.july_month="80000");
+console.log(employee_info.address.country = "united Kingdom");
+console.table(employee_info);
+console.table(clone_emp_info);
 
 
 
