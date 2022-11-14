@@ -25,7 +25,7 @@ const emp_mahi=new Employee(99,"Mahesh","HR",85000,"Infy" );
  map_employees.set(99,emp_mahi) ;
  console.warn("------------Traverse the map using for each loop and log on console ----------------------");
  map_employees.forEach((element)=>{
-    console.log(`Name:- ${element.emp_name}  ID:- ${element.emp_id}  Dept:-${element.emp_dept}  Company:-${element.emp_company}  Salary${element.emp_salary}`);
+    console.log(`Name:- ${element.emp_name}  ID:- ${element.emp_id}  Dept:-${element.emp_dept}  Company:-${element.emp_company}  Salary:- ${element.emp_salary}`);
  })
 
    
